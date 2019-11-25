@@ -1,7 +1,10 @@
 {
-  "name": "npm-yousef",
-  "version": "1.0.4",
-  "description": "a simple hello world example",
+  "name": "npm-holidates",
+  "version": "1.0.0",
+  "description": "get holidays from country selected",
+  "bin": {
+    "holidays": "cli.js"
+  },
   "main": "index.js",
   "scripts": {
     "test": "mocha test.js"
@@ -22,18 +25,26 @@
     }
   ],
   "contributors": [
-    {
-      "name": "Manav Shrivastava",
-      "email": "manavshrivastava@hotmail.com",
-      "url": "https://github.com/manavshrivastavagit"
-    }
+    "Manav Shrivastava <manavshrivastava@hotmail.com> (https://github.com/manavshrivastavagit)"
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/manavshrivastavagit/simple-hello-world-example.git"
+    "url": "git+ssh://git@github.com/manavshrivastavagit/simple-hello-world-example.git"
   },
   "devDependencies": {
     "chai": "4.1.2",
     "mocha": "5.0.5"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "chalk": "^3.0.0",
+    "country-list": "^2.2.0",
+    "figlet": "^1.2.4",
+    "inquirer": "^7.0.0",
+    "readline-sync": "^1.4.10",
+    "shelljs": "^0.8.3"
+  },
+  "bugs": {
+    "url": "https://github.com/manavshrivastavagit/simple-hello-world-example/issues"
   }
 }

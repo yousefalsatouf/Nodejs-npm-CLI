@@ -5,7 +5,7 @@ A Simple Hello World Example Package
 Install via NPM:
 
 ```bash
-npm install npm-yousef
+npm install @yousefalsatouf/holidates
 
 ```
 
@@ -15,7 +15,7 @@ npm install npm-yousef
 
 ```javascript
 
-var myApp = require("npm-yousef");
+var myApp = require("@yousefalsatouf/holidates");
 
 myApp.printMsg(); // print and return " Hello World! " 
 
@@ -25,7 +25,7 @@ myApp.printMsg(); // print and return " Hello World! "
 
 ```typescript
 
-import * as myApp from 'npm-yousef';
+import * as myApp from '@yousefalsatouf/holidates';
 
 myApp.printMsg(); // print and return " Hello World! " 
 

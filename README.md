@@ -15,7 +15,7 @@ npm install simple-hello-world-example
 
 ```javascript
 
-var myApp = require("simple-hello-world-example");
+var myApp = require("npm-yousef");
 
 myApp.printMsg(); // print and return " Hello World! " 
 
@@ -25,7 +25,7 @@ myApp.printMsg(); // print and return " Hello World! "
 
 ```typescript
 
-import * as myApp from 'simple-hello-world-example';
+import * as myApp from 'npm-yousef';
 
 myApp.printMsg(); // print and return " Hello World! " 
 
